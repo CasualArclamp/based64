@@ -17,18 +17,23 @@ def main(): #main function
         exit()
     else:
         print("Invalid choice")
+        print("\n")
         main()
 
 def encode(): #encode function
-    string = input("Enter the string to encode: ")
+    string = input("\nEnter the string to encode: ")
     encoded = base64.b64encode(string.encode()) #encode the string to bytes
+    print("\nEncoded Output:")
     print(encoded.decode())
+    print("\n")
     main()
 
 def decode(): #decode function
-    string = input("Enter the string to decode: ")
+    string = input("\nEnter the string to decode: ")
     decoded = base64.b64decode(string.encode()) #encode the string to bytes
+    print("\nDecoded Output:")
     print(decoded.decode())
+    print("\n")
     main()
 
 main() #call the main function
