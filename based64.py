@@ -2,8 +2,9 @@
 
 import base64
 
+print("Welcome to the base64 encoder/decoder")
+
 def main(): #main function
-    print("Welcome to the base64 encoder/decoder")
     print("1. Encode")
     print("2. Decode")
     print("3. Exit")
