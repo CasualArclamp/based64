@@ -79,4 +79,5 @@ def custom_base64_decode(encoded_string): #decode function
     return input_bytes.decode() # Return the decoded bytes as a string
 
 main()
+
 #Arclamp was here :D 2023
